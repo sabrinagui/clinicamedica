@@ -1,0 +1,108 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    
+}
+* {
+    font-family: 'Poppins', sans-serif;
+  }
+h1 { text-align: center;
+    color: #142152;
+} 
+h3 {text-align: center;
+    color: #142152;
+} 
+p {text-align: center;
+}
+
+.wrapper {
+    width: 1980px;
+    height: 800px;
+    margin-left: 0px;
+    display: flex;    
+    background-color: #142152;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: #142152;
+    padding: 10px 20px 0px;
+    
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+    width: 100%; /* Define a largura da div como 100% */
+    overflow: hidden; /* Esconde qualquer conteúdo excedente */
+    width: 100%; /* Define a largura da imagem como 100% da div */
+    height: auto; /* Mantém a proporção da imagem */
+ }
+       
+      
+      
+.content {
+    background-color: white;
+    min-height: 600px;
+    padding: 20px;
+}
+.footer {
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(99, 56, 240);
+    min-height: 150px;
+    color: white;
+    text-align: center;
+}
+#head {
+    width: 100%;
+    height: auto;
+    width: 100%; /* Define a largura da div como 100% */
+    overflow: hidden; /* Esconde qualquer conteúdo excedente */
+    width: 100%; /* Define a largura da imagem como 100% da div */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.menu a {
+    color: white;
+   
+  }
+.menu li { 
+    color: white;
+    align-items: center;
+}
+.banner1 {
+    width: 50px; /* Define a largura desejada */
+    height: 50px; /* Define a altura desejada */
+  }
+ table {
+    border-collapse: collapse; /* Junta as bordas das células */
+    width: 100%; /* Define a largura total da tabela */
+  }
+  
+  th, td {
+    border: 1px solid #000; /* Borda sólida com espessura de 1px */
+    padding: 8px; /* Espaçamento interno das células */
+    text-align: center; /* Alinhamento centralizado do conteúdo */
+  }
+  th:hover, td:hover {
+    background-color:  #728589; /* Cor de fundo quando hover */
+  }
+
+ 
+  
